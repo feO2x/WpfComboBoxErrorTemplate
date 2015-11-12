@@ -11,7 +11,7 @@
             <local:ComboBoxWithException />
         </TabItem>
         <TabItem Header="ComboBox with INotifyDataErrorInfo">
-            
+            <local:ComboBoxWithCustomValidationRule />
         </TabItem>
         <TabItem Header="ComboBox with ValidationRule"></TabItem>
     </TabControl>

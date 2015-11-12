@@ -55,9 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ComboBoxWithCustomValidationRule.xaml.cs">
+      <DependentUpon>ComboBoxWithCustomValidationRule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomValidationRule.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="NotifyingObject.cs" />
     <Compile Include="RaisePropertyChangedExtensions.cs" />
+    <Page Include="ComboBoxWithCustomValidationRule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ComboBoxWithException.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
