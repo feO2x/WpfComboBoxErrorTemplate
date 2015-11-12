@@ -10,9 +10,11 @@
         <TabItem Header="ComboBox with Exception">
             <local:ComboBoxWithException />
         </TabItem>
-        <TabItem Header="ComboBox with INotifyDataErrorInfo">
+        <TabItem Header="ComboBox with CustomValidationRule">
             <local:ComboBoxWithCustomValidationRule />
         </TabItem>
-        <TabItem Header="ComboBox with ValidationRule"></TabItem>
+        <TabItem Header="Initially Invalid ComboBox">
+            <local:InitiallyInvalidComboBoxView />
+        </TabItem>
     </TabControl>
 </Window>
